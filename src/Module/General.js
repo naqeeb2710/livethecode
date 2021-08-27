@@ -259,8 +259,13 @@ const frequentlyAskedQuestions  = [
         content: "Absolutely not ! our event is free and open for all , if incase anyone asks for money you can dm any of our moderator"
       },
       {
-        label: "I dont have a team to participate?",
-        content: "You dont need one, prior to our event in discord you will meet many hackers exactly like you and join to form a team, if not you can participate alone and fun fact we are running special best solo prize."
+        label: "What are the conduct of guidlines?",
+        content: "We strongly follow the MLH code of conduct, Our team members will enforce this code throughout the event. "
+      },
+
+      {
+        label: " Is it necessary to form the team of 4 students ?",
+        content: "No the team can range from 2 to 4 members, BUT one Girl is compulsory in team."
       }
     ],
     [
@@ -279,9 +284,15 @@ const frequentlyAskedQuestions  = [
       }
       ,
       {
-        label: "What are the conduct of guidlines?",
-        content: "We strongly follow the MLH code of conduct, Our team members will enforce this code throughout the event. "
-      }
+        label: "Is the registration open to all colleges?",
+        content: "Yes, it's open to all engineering/ polytechnic/ science colleges. "
+      },
+      
+      {
+        label: "Should the team members be from the different college?",
+        content: "Yes, all members can be from different colleges, departments and years."
+      },
+
     ]
   ],
 
