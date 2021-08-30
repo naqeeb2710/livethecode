@@ -1,5 +1,6 @@
 // Importing all sponsors logos from Assets
 import taskade from "./Assets/sponsorsLogos/taskade.png";
+import Clerky from "./Assets/sponsorsLogos/Clerky.png";
 import Replit from "./Assets/sponsorsLogos/replit.png";
 import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
 import echoAR from "./Assets/sponsorsLogos/echoAR.png";
@@ -29,6 +30,7 @@ import zoha from "./Assets/teami/zoha.png";
 import kk from "./Assets/teami/kk.png";
 import adgitm from "./Assets/teami/adgitm.jpeg";
 import codechef from "./Assets/teami/codechef.jpeg";
+import iist from "./Assets/teami/iist.png";
 
 
 /** Put all your Team member image inside folder `Team Images`
@@ -53,7 +55,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: "https://www.instagram.com/codechefadgitm/",
-  discord: "",
+  discord: "https://discord.com/invite/aVrVdTxsFh",
   linkedin: "https://www.linkedin.com/company/codechefadgitm/",
   twitter: "https://mobile.twitter.com/CAdgitm",
   devpost: "https://limbo-hacks-12968.devpost.com/",
@@ -179,13 +181,13 @@ const TeamInfo = [
       linkedin: "https://www.linkedin.com/school/northern-india-engineering-college/",
       img: adgitm
     },
-    // {
-    //   Name: "Naqeeb Ahmed",
-    //   role: "Website Maintainer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: naqeeb
-    // }
+    {
+      Name: "CodeChef IIST Chapter",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: iist
+    }
   ],
   [
     //Array 2
@@ -238,7 +240,7 @@ const TeamInfo = [
 
 const sponsorLogos = [
   // [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
+   [{src: taskade}, {src: Clerky}], //{src: qoom}], //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
   // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];

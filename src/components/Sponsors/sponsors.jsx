@@ -24,7 +24,7 @@ function SponsorUS() {
       <a href={SOCIALS.email}>
         <Btn className="sponsor_btn" type="Sponsor us" overlay="Send a mail" />
       </a>{" "}
-      <h2>Sponsors will be finalised soon</h2>
+      {/* <h2>Sponsors will be finalised soon</h2> */}
     </div>
   );
 }
