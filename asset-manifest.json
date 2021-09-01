@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c70a0fef.chunk.css",
-    "main.js": "/static/js/main.58f35752.chunk.js",
-    "main.js.map": "/static/js/main.58f35752.chunk.js.map",
+    "main.js": "/static/js/main.b024b4ee.chunk.js",
+    "main.js.map": "/static/js/main.b024b4ee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.96ccc461.js",
     "runtime-main.js.map": "/static/js/runtime-main.96ccc461.js.map",
     "static/js/2.0e89cf93.chunk.js": "/static/js/2.0e89cf93.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/adgitm.119938f9.jpeg": "/static/media/adgitm.119938f9.jpeg",
     "static/media/boy.e1bb0956.png": "/static/media/boy.e1bb0956.png",
     "static/media/cfc.18f32e55.png": "/static/media/cfc.18f32e55.png",
+    "static/media/cn.15d5c8be.png": "/static/media/cn.15d5c8be.png",
     "static/media/codechef.e1347ffc.jpeg": "/static/media/codechef.e1347ffc.jpeg",
     "static/media/echoAR.4f66d3a4.png": "/static/media/echoAR.4f66d3a4.png",
     "static/media/egg.f445ea46.png": "/static/media/egg.f445ea46.png",
@@ -48,6 +49,8 @@
     "static/media/pravallika.78715d6f.jpg": "/static/media/pravallika.78715d6f.jpg",
     "static/media/qoom.cd1be00b.svg": "/static/media/qoom.cd1be00b.svg",
     "static/media/replit.3c3b0ba7.png": "/static/media/replit.3c3b0ba7.png",
+    "static/media/stream.eeaed1ba.png": "/static/media/stream.eeaed1ba.png",
+    "static/media/stream2.9d5f3e5a.png": "/static/media/stream2.9d5f3e5a.png",
     "static/media/sublime.7b96cd96.png": "/static/media/sublime.7b96cd96.png",
     "static/media/sym.6e590285.png": "/static/media/sym.6e590285.png",
     "static/media/taskade.ac444bbc.png": "/static/media/taskade.ac444bbc.png",
@@ -57,6 +60,6 @@
     "static/js/runtime-main.96ccc461.js",
     "static/js/2.0e89cf93.chunk.js",
     "static/css/main.c70a0fef.chunk.css",
-    "static/js/main.58f35752.chunk.js"
+    "static/js/main.b024b4ee.chunk.js"
   ]
 }
