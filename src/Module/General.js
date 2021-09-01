@@ -1,6 +1,9 @@
 // Importing all sponsors logos from Assets
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import Clerky from "./Assets/sponsorsLogos/Clerky.png";
+import cn from "./Assets/sponsorsLogos/cn.png";
+import stream from "./Assets/sponsorsLogos/stream.png";
+import stream2 from "./Assets/sponsorsLogos/stream2.png";
 import Replit from "./Assets/sponsorsLogos/replit.png";
 import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
 import echoAR from "./Assets/sponsorsLogos/echoAR.png";
@@ -66,7 +69,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Live The Code ?",
   LONG_DESCRIPTION:
-    "Live The Code is 48 hour long running hackathon that will be held on last week of september , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Live The Code will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "Live The Code is week long running hackathon that will be held on last week of september , We calls for hackers, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Live The Code will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: false,
   LOGO: "https://drive.google.com/file/d/1ljJxdnX9YBiWNI5hBGG18Iy2dbn2sOPa/view?usp=sharing"
 };
@@ -142,7 +145,7 @@ const Prizeinfo = [
   //     type: "Best UI/UX",
   //     content: "Project with most creative designs will be UI/UX track"
   //   }
-  // ],
+  // ], 
   // [
   //   //Array 3
   //   {
@@ -239,10 +242,10 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  // [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-   [{src: taskade}, {src: Clerky}], //{src: qoom}], //Array 2
+  [{src: Clerky},] ,//{src: sublime}, {src: echoAR}], //Array 1
+   [{src: stream}, {src: cn}], //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: egg}, {src: taskade}], //{src: ACF}] //Array 4
 ];
 
 const frequentlyAskedQuestions  = [
