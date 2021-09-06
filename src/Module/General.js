@@ -53,7 +53,7 @@ const TOP_SECTION = {
   JUDGES_FORM_LINK:
     "https://docs.google.com/forms/d/e/1FAIpQLScYiyGKouI3cffX8sUcbJyFfy6_IS44yKoajJdsZTC9DuxkMg/viewform?usp=sf_link",
   HACKERS_REGISTRATION_FORM_LINK:
-    "https://forms.gle/CPLwRc1SyvxLZyhNA"
+    "https://livethecode.devfolio.co/"
 };
 
 const SOCIALS = {

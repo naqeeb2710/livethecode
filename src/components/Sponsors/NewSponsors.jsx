@@ -44,8 +44,9 @@ const NewSponsors = () => {
         <h1>Bronze</h1>
         <Box className="sponsors-logo">
         <div className="Sponsor ">
-           <a href="https://celo.org/"></a>
+           <a href="https://celo.org/">
             <img src={Celo} alt="" />
+            </a>
           </div>
           <div className="Sponsor ">
             <a href="https://celo.org/">

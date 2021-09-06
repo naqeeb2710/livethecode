@@ -66,7 +66,7 @@ function Myinfo() {
           className="apply-button "
           data-hackathon-slug="livethecode"
           data-button-theme="light"
-          // style={{height: "10rem", width: "22rem"}}
+           style={{height: "10rem", width: "22rem"}}
         ></div>
 
         <a href={TOP_SECTION.JUDGES_FORM_LINK}>
