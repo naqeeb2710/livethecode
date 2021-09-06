@@ -1,20 +1,20 @@
 // Importing all sponsors logos from Assets
-import taskade from "./Assets/sponsorsLogos/taskade.png";
-import Clerky from "./Assets/sponsorsLogos/Clerky.png";
-import cn from "./Assets/sponsorsLogos/cn.png";
-import stream from "./Assets/sponsorsLogos/stream.png";
-import stream2 from "./Assets/sponsorsLogos/stream2.png";
-import Replit from "./Assets/sponsorsLogos/replit.png";
-import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-import cfc from "./Assets/sponsorsLogos/cfc.png";
-import pass from "./Assets/sponsorsLogos/1pass.png";
-import glimpse from "./Assets/sponsorsLogos/glimpse.png";
-import qoom from "./Assets/sponsorsLogos/qoom.svg";
-import sublime from "./Assets/sponsorsLogos/sublime.png";
-import egg from "./Assets/sponsorsLogos/egg.png";
-import ll from "./Assets/sponsorsLogos/ll.png";
-import ACF from "./Assets/sponsorsLogos/ACF.png";
+// import taskade from "./Assets/sponsorsLogos/taskade.png";
+// import Clerky from "./Assets/sponsorsLogos/Clerky.png";
+// import cn from "./Assets/sponsorsLogos/cn.png";
+// import stream from "./Assets/sponsorsLogos/stream.png";
+// import stream2 from "./Assets/sponsorsLogos/stream2.png";
+// import Replit from "./Assets/sponsorsLogos/replit.png";
+// import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
+// import echoAR from "./Assets/sponsorsLogos/echoAR.png";
+// import cfc from "./Assets/sponsorsLogos/cfc.png";
+// import pass from "./Assets/sponsorsLogos/1pass.png";
+// import glimpse from "./Assets/sponsorsLogos/glimpse.png";
+// import qoom from "./Assets/sponsorsLogos/qoom.svg";
+// import sublime from "./Assets/sponsorsLogos/sublime.png";
+// import egg from "./Assets/sponsorsLogos/egg.png";
+// import ll from "./Assets/sponsorsLogos/ll.png";
+// import ACF from "./Assets/sponsorsLogos/ACF.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -241,12 +241,12 @@ const TeamInfo = [
  * in a group of 3.
  */
 
-const sponsorLogos = [
-  [{src: Clerky},] ,//{src: sublime}, {src: echoAR}], //Array 1
-   [{src: stream}, {src: cn}], //Array 2
-  // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: taskade}], //{src: ACF}] //Array 4
-];
+// const sponsorLogos = [
+//   [{src: Clerky},] ,//{src: sublime}, {src: echoAR}], //Array 1
+//    [{src: stream}, {src: cn}], //Array 2
+//   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
+//   [{src: egg}, {src: taskade}], //{src: ACF}] //Array 4
+// ];
 
 const frequentlyAskedQuestions  = [
   [
@@ -310,7 +310,7 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
-  sponsorLogos,
+  // sponsorLogos,
   TeamInfo,
   frequentlyAskedQuestions
 };
