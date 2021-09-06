@@ -265,7 +265,7 @@ const frequentlyAskedQuestions  = [
       },
       {
         label: "What are the conduct of guidlines?",
-        content: "We strongly follow the MLH code of conduct, Our team members will enforce this code throughout the event. "
+        content: "We strongly follow the DEVFOLIO code of conduct, Our team members will enforce this code throughout the event. "
       },
 
       {
