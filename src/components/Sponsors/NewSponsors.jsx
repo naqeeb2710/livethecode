@@ -20,7 +20,7 @@ const NewSponsors = () => {
       </Grid>
       <Grid item xs={12}>
         <h1>Silver</h1>
-        <Box style={{display: "flex", justifyContent: "center"}}>
+        <Box className="sponsors-logo">
           <div className="Sponsor ">
             <a href="#">
               <img src={CN} alt="" />

@@ -5,10 +5,13 @@
 .h1 {
   margin: 0;
 }
+.devfolio-btn {
+  display: flex;
+}
 
 button {
   width: 22rem;
-  height: 6rem;
+  height: 5rem;
   border: none;
   border-radius: 19px;
   font-size: 2rem;
@@ -108,6 +111,9 @@ button:hover .overlay {
   }
   .AboutMe {
     text-align: center;
+  }
+  .devfolio-btn {
+    flex-direction: column;
   }
 }
 

@@ -6,13 +6,15 @@ import {TOP_SECTION, SOCIALS} from "../../Module/General";
 
 function Btn(props) {
   return (
-    <button className={props.class}>
-      <i className={props.ico}></i>
-      {props.type}
-      <div className="overlay">
-        <div className="overlay-text">{props.overlay}</div>
-      </div>
-    </button>
+    <span className="arbaz">
+      <button className={props.class}>
+        <i className={props.ico}></i>
+        {props.type}
+        <div className="overlay">
+          <div className="overlay-text">{props.overlay}</div>
+        </div>
+      </button>
+    </span>
   );
 }
 
@@ -59,17 +61,19 @@ function Myinfo() {
           overlay="Hackers registration"
         />
       </a> */}
-      <div
-        className="apply-button"
-        data-hackathon-slug="livethecode"
-        data-button-theme="light"
-        // style={{height: "10rem", width: "22rem"}}
-      ></div>
+      <div className="devfolio-btn">
+        <div
+          className="apply-button "
+          data-hackathon-slug="livethecode"
+          data-button-theme="light"
+          // style={{height: "10rem", width: "22rem"}}
+        ></div>
 
-      <a href={TOP_SECTION.JUDGES_FORM_LINK}>
-        {" "}
-        <Btn class="register" type="Mentor" overlay="Become The Mentor" />
-      </a>
+        <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+          {" "}
+          <Btn class="register" type="Mentor" overlay="Become The Mentor" />
+        </a>
+      </div>
     </div>
   );
 }
