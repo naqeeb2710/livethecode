@@ -24,13 +24,14 @@ import {
   FOOTER,
   panels
 } from "../../Module/General";
+import NewSponsors from "../Sponsors/NewSponsors.jsx";
 
 // javascript Map for sponsors
 
 function SponsorGroup(props) {
   return (
     <Row>
-      {props.map(s => (
+      {props.map((s, index) => (
         <Col className="" sm={12} lg={4} md={6}>
           {" "}
           <Sponsor srcx={s.src} />{" "}
@@ -69,26 +70,25 @@ function TeamMembers(props) {
   );
 }
 
-
-
-
 function FrequentlyAsked(props) {
   return (
     <Row className="sf">
       {props.map(s => (
         <Col className="" sm={12} lg={6} md={6}>
-        <Accordion panels={ s }/>
+          <Accordion panels={s} />
         </Col>
       ))}
     </Row>
   );
 }
 
-
-
 export default function HomePage(props) {
   return (
-    <div id="home" className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+    <div
+      id="home"
+      className="Whole_div"
+      style={{backgroundImage: `url(${pattern})`}}
+    >
       <div className="color_sectiom">
         <Container fluid>
           <Row className="Row info">
@@ -120,9 +120,9 @@ export default function HomePage(props) {
 
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs">
-        {frequentlyAskedQuestions.map(FrequentlyAsked)}
-        {/* ********Frequently asked Questions ending here ***** */}
-         </div>  
+          {frequentlyAskedQuestions.map(FrequentlyAsked)}
+          {/* ********Frequently asked Questions ending here ***** */}
+        </div>
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection">
@@ -141,7 +141,8 @@ export default function HomePage(props) {
         <Row id="sponsors" className="sponsorSection">
           <SponsorsHead />
           <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
+          {/* {sponsorLogos.map(SponsorGroup)} */}
+          <NewSponsors />
         </Row>
         {/* ********Sponsors ending here ***** */}
 

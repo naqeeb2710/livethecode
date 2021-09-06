@@ -12,6 +12,16 @@ import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import {SOCIALS, TOP_SECTION, FOOTER} from "../../Module/General";
 
 export default function Footer() {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <div>
       <div className="footer">
@@ -48,12 +58,22 @@ export default function Footer() {
           </div> */}
         </div>
         <div className="Register_a">
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+          {/* <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
             <Btn type="Register" overlay="Hackers Registration" />
-          </a>
+          </a> */}
+          <div
+            className="apply-button"
+            data-hackathon-slug="livethecode"
+            data-button-theme="light"
+            // style={{height: "10rem", width: "22rem"}}
+          ></div>
           {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
-              <Btn type="Mentor" class="Volunteer" overlay="Become The Mentor" />
+              <Btn
+                type="Mentor"
+                class="Volunteer"
+                overlay="Become The Mentor"
+              />
             </a>
           )}
         </div>

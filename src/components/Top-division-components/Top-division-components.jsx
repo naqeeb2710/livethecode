@@ -26,6 +26,16 @@ function About() {
 }
 
 function Myinfo() {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <div className="Myinfo">
       <About />
@@ -41,14 +51,21 @@ function Myinfo() {
         </a>
       </div>
       {/* This is judges application button */}
-      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+      {/* <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
         {" "}
         <Btn
           class="sponsor_btn"
           type="Register "
           overlay="Hackers registration"
         />
-      </a>
+      </a> */}
+      <div
+        className="apply-button"
+        data-hackathon-slug="livethecode"
+        data-button-theme="light"
+        // style={{height: "10rem", width: "22rem"}}
+      ></div>
+
       <a href={TOP_SECTION.JUDGES_FORM_LINK}>
         {" "}
         <Btn class="register" type="Mentor" overlay="Become The Mentor" />

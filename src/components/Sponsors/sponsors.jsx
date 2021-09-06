@@ -4,8 +4,11 @@ import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import {SOCIALS} from "../../Module/General";
 
 function SponsorsHead() {
-  return ( <div><h1 className="shead">Sponsors & Partners</h1>
-          </div> );
+  return (
+    <div>
+      <h1 className="shead">Sponsors & Partners</h1>
+    </div>
+  );
 }
 
 function Sponsor(props) {
