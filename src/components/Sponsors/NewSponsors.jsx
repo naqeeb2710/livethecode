@@ -22,7 +22,8 @@ const NewSponsors = () => {
         <h1>Gold</h1>
         <div className="Sponsor " style={{marginTop: "8rem"}}>
          <a href="https://devfolio.co/">
-           <img src={Devfolio} alt="" height={100} />
+           <img src={Devfolio} alt="" //height={100} 
+           />
            </a>
         </div>
       </Grid>
