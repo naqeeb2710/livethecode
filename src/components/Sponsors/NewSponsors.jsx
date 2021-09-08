@@ -50,7 +50,7 @@ const NewSponsors = () => {
             </a>
           </div>
           <div className="Sponsor ">
-            <a href="https://celo.org/">
+            <a href="https://filecoin.io/">
             <img src={Filecoin} alt="" />
             </a>
           </div>
