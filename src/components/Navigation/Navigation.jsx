@@ -27,7 +27,7 @@ const Navigation = props => {
             </a>
           </li>
           <li>
-            <a href="https://forms.gle/CPLwRc1SyvxLZyhNA">Register</a>
+            <a href="https://livethecode.devfolio.co/">Register</a>
           </li>
           <li>
             <a href="#moreinfo">More Info</a>

@@ -1,25 +1,3 @@
-// Importing all sponsors logos from Assets
-// import taskade from "./Assets/sponsorsLogos/taskade.png";
-// import Clerky from "./Assets/sponsorsLogos/Clerky.png";
-// import cn from "./Assets/sponsorsLogos/cn.png";
-// import stream from "./Assets/sponsorsLogos/stream.png";
-// import stream2 from "./Assets/sponsorsLogos/stream2.png";
-// import Replit from "./Assets/sponsorsLogos/replit.png";
-// import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-// import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-// import cfc from "./Assets/sponsorsLogos/cfc.png";
-// import pass from "./Assets/sponsorsLogos/1pass.png";
-// import glimpse from "./Assets/sponsorsLogos/glimpse.png";
-// import qoom from "./Assets/sponsorsLogos/qoom.svg";
-// import sublime from "./Assets/sponsorsLogos/sublime.png";
-// import egg from "./Assets/sponsorsLogos/egg.png";
-// import ll from "./Assets/sponsorsLogos/ll.png";
-// import ACF from "./Assets/sponsorsLogos/ACF.png";
-
-/** Put all your sponsors logo inside folder `sponsorLogos`
- * and import them in the above and update `src` in sponsorLogos
- * or you can provide a cloud link in src
- */
 
 // Importing all Team members images  from Assets
 import naqeeb from "./Assets/teami/naqeeb.jpg";
@@ -53,7 +31,7 @@ const TOP_SECTION = {
   JUDGES_FORM_LINK:
     "https://docs.google.com/forms/d/e/1FAIpQLScYiyGKouI3cffX8sUcbJyFfy6_IS44yKoajJdsZTC9DuxkMg/viewform?usp=sf_link",
   HACKERS_REGISTRATION_FORM_LINK:
-    "https://livethecode.devfolio.co/"
+    "https://livethecode.devfolio.co/",
 };
 
 const SOCIALS = {
@@ -187,7 +165,7 @@ const TeamInfo = [
     {
       Name: "CodeChef IIST Chapter",
       role: "Organizer",
-      github: "",
+      instagram: "",
       linkedin: "",
       img: iist
     }
@@ -254,14 +232,14 @@ const frequentlyAskedQuestions  = [
       {
         label: "What is a hackathon?",
         content:
-        'Hackathons are community events, where you get to interact with students from all around the world as well as forming teams to create future tech'      },
+        'Hackathons are community events, where you get to interact with students from all around the world as well as forming teams to create future tech.'      },
       {
         label: "I have no idea what coding is?",
-        content: "Thats why you must attend our event, we will guide you through everything with awesome workshops,tech talk and many more"
+        content: "Thats why you must attend our event, we will guide you through everything with awesome workshops,tech talk and many more."
       },
       {
         label: "Do i need to pay any money?",
-        content: "Absolutely not ! our event is free and open for all , if incase anyone asks for money you can dm any of our moderator"
+        content: "Absolutely not ! our event is free and open for all , if incase anyone asks for money you can dm any of our moderator."
       },
       {
         label: "What are the conduct of guidlines?",
@@ -270,13 +248,13 @@ const frequentlyAskedQuestions  = [
 
       {
         label: " Is it necessary to form the team of 4 students ?",
-        content: "No the team can range from 2 to 4 members, BUT one Girl is compulsory in team."
+        content: "No the team can range from 2 to 4 members."
       }
     ],
     [
       {
         label: "How to participate?",
-        content: "All you need is to fill our form above and we will guide you through everything in email"
+        content: "All you need is to fill our form above and we will guide you through everything in email."
       },
       {
         label: "I have more doubts?",

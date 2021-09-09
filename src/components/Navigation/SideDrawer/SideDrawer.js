@@ -40,7 +40,7 @@ const SideDrawer = (props) => {
             className={`home-icons mr-3`}
           /> */}
           <a
-            href="https://forms.gle/CPLwRc1SyvxLZyhNA"
+            href="https://livethecode.devfolio.co/"
             onClick={props.click}
           ><span>Register</span>
 

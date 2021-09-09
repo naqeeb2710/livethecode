@@ -12,7 +12,7 @@ import Egg from "../../Module/Assets/sponsorsLogos/egg.png";
 import Givemycertificate from "../../Module/Assets/sponsorsLogos/Givemycertificate.png";
 import Polygon from "../../Module/Assets/sponsorsLogos/Polygon.png";
 import {makeStyles} from "@material-ui/styles";
-// import Egg from "../../Module/Assets/sponsorsLogos/egg.png";
+import Axure from "../../Module/Assets/sponsorsLogos/axure.png";
 import "./sponsors.scss";
 
 const NewSponsors = () => {
@@ -21,17 +21,19 @@ const NewSponsors = () => {
       <Grid item xs={12}>
         <h1>Gold</h1>
         <div className="Sponsor " style={{marginTop: "8rem"}}>
-         <a href="https://devfolio.co/">
-           <img src={Devfolio} alt="" //height={100} 
-           />
-           </a>
+          <a href="https://devfolio.co/">
+            <img
+              src={Devfolio}
+              alt="" //height={100}
+            />
+          </a>
         </div>
       </Grid>
       <Grid item xs={12}>
         <h1>Silver</h1>
         <Box className="sponsors-logo">
           <div className="Sponsor ">
-              <img src={CN} alt="" />
+            <img src={CN} alt="" />
           </div>
           <div className="Sponsor ">
             <img src={Stream} alt="" />
@@ -44,46 +46,49 @@ const NewSponsors = () => {
       <Grid item xs={12}>
         <h1>Bronze</h1>
         <Box className="sponsors-logo">
-        <div className="Sponsor ">
-           <a href="https://celo.org/">
-            <img src={Celo} alt="" />
+          <div className="Sponsor ">
+            <a href="https://celo.org/">
+              <img src={Celo} alt="" />
             </a>
           </div>
           <div className="Sponsor ">
             <a href="https://filecoin.io/">
-            <img src={Filecoin} alt="" />
+              <img src={Filecoin} alt="" />
             </a>
           </div>
           <div className="Sponsor ">
             <a href="https://tezos.com/">
-            <img src={Tezos} alt="" />
-            </a>
-          </div>
-         </Box>
-      </Grid>
-      <Grid item xs={12}>
-      <Box className="sponsors-logo">
-      <div className="Sponsor ">
-            <img src={Egg} alt="" />
-      </div>
-          <div className="Sponsor ">
-            <img src={Taskade} alt="" />
-          </div>
-          <div className="Sponsor ">
-            <a href="https://polygon.technology/">
-            <img src={Polygon} alt="" />
+              <img src={Tezos} alt="" />
             </a>
           </div>
         </Box>
       </Grid>
       <Grid item xs={12}>
-      <Box className="sponsors-logo">
-      <div className="Sponsor ">
-            <a href="https://givemycertificate.com/index.php">
-            <img src={Givemycertificate} alt="" />
+        <Box className="sponsors-logo">
+          <div className="Sponsor ">
+            <img src={Egg} alt="" />
+          </div>
+          <div className="Sponsor ">
+            <img src={Taskade} alt="" />
+          </div>
+          <div className="Sponsor ">
+            <a href="https://polygon.technology/">
+              <img src={Polygon} alt="" />
             </a>
           </div>
-          </Box>
+        </Box>
+      </Grid>
+      <Grid item xs={12}>
+        <Box className="sponsors-logo">
+          <div className="Sponsor ">
+            <a href="https://givemycertificate.com/index.php">
+              <img src={Givemycertificate} alt="" />
+            </a>
+          </div>
+          <div className="Sponsor ">
+            <img src={Axure} alt="" />
+          </div>
+        </Box>
       </Grid>
     </Grid>
   );
