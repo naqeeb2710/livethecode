@@ -63,7 +63,13 @@ function TeamMembers(props) {
     <Row className="members">
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={4}>
-          <Member name={s.Name} role={s.role} img={s.img} />
+          <Member
+            name={s.Name}
+            role={s.role}
+            img={s.img}
+            instagram={s.instagram}
+            linkedin={s.linkedin}
+          />
         </Col>
       ))}
     </Row>
