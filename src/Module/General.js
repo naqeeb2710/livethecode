@@ -1,14 +1,14 @@
 
 // Importing all Team members images  from Assets
-import naqeeb from "./Assets/teami/naqeeb.jpg";
-import me from "./Assets/teami/me.png";
-import moon from "./Assets/teami/moon.png";
-import Ryah from "./Assets/teami/Ryah.jpg";
-import lyin from "./Assets/teami/lyin.jpg";
-import Pravallika from "./Assets/teami/pravallika.jpg";
-import keshav from "./Assets/teami/keshav.jpg";
-import zoha from "./Assets/teami/zoha.png";
-import kk from "./Assets/teami/kk.png";
+// import naqeeb from "./Assets/teami/naqeeb.jpg";
+// import me from "./Assets/teami/me.png";
+// import moon from "./Assets/teami/moon.png";
+// import Ryah from "./Assets/teami/Ryah.jpg";
+// import lyin from "./Assets/teami/lyin.jpg";
+// import Pravallika from "./Assets/teami/pravallika.jpg";
+// import keshav from "./Assets/teami/keshav.jpg";
+// import zoha from "./Assets/teami/zoha.png";
+// import kk from "./Assets/teami/kk.png";
 import adgitm from "./Assets/teami/adgitm.jpeg";
 import codechef from "./Assets/teami/codechef.jpeg";
 import iist from "./Assets/teami/iist.png";
@@ -165,8 +165,8 @@ const TeamInfo = [
     {
       Name: "CodeChef IIST Chapter",
       role: "Organizer",
-      instagram: "",
-      linkedin: "",
+      instagram: "https://www.instagram.com/codechef_iist_chapter/",
+      linkedin: "https://www.linkedin.com/company/codechef-iist-chapter/",
       img: iist
     }
   ],
