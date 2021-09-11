@@ -99,17 +99,17 @@ const NewSponsors = () => {
         <h1>Community Partner</h1>
         <Box className="sponsors-logo">
           <div className="Sponsor ">
-            <a href="https://celo.org/">
+            <a href="https://www.instagram.com/codermind_/">
               <img src={Codermind} alt="" />
             </a>
           </div>
           <div className="Sponsor ">
-            <a href="https://filecoin.io/">
+            <a href="https://www.codepartner.me/">
               <img src={Codepartner} alt="" />
             </a>
           </div>
           <div className="Sponsor ">
-            <a href="https://tezos.com/">
+            <a href="https://cscodershub.tech/">
               <img src={Cscoder} alt="" />
             </a>
           </div>

@@ -1,17 +1,12 @@
 
-// Importing all Team members images  from Assets
-// import naqeeb from "./Assets/teami/naqeeb.jpg";
-// import me from "./Assets/teami/me.png";
-// import moon from "./Assets/teami/moon.png";
-// import Ryah from "./Assets/teami/Ryah.jpg";
-// import lyin from "./Assets/teami/lyin.jpg";
-// import Pravallika from "./Assets/teami/pravallika.jpg";
-// import keshav from "./Assets/teami/keshav.jpg";
-// import zoha from "./Assets/teami/zoha.png";
-// import kk from "./Assets/teami/kk.png";
+
 import adgitm from "./Assets/teami/adgitm.jpeg";
 import codechef from "./Assets/teami/codechef.jpeg";
 import iist from "./Assets/teami/iist.png";
+import mukul from "./Assets/teami/mukul.png";
+import praveen from "./Assets/teami/praveen.jpg";
+import harsh from "./Assets/teami/harsh.jpg";
+
 
 
 /** Put all your Team member image inside folder `Team Images`
@@ -105,38 +100,38 @@ const Prizeinfo = [
         "Best third overall project of the hackathon will win some awesome prizes"
     }
   ],
-  // [
-  //   //Array 2
-  //   {
-  //     icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
-  //     type: "Best Solo",
-  //     content:
-  //       "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
-  //   },
-  //   {
-  //     icon: <i class="first fas fa-4x fa-trophy"></i>,
-  //     type: " Best Beginner",
-  //     content: "Your project will qualify for this category if atleast 50% "
-  //   },
-  //   {
-  //     icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
-  //     type: "Best UI/UX",
-  //     content: "Project with most creative designs will be UI/UX track"
-  //   }
-  // ], 
-  // [
-  //   //Array 3
-  //   {
-  //     icon: <i class="fas fa-4x sixth fa-male"></i>,
-  //     type: "Best Web App with Qoom",
-  //     content: "Must use qoom in your project to win this category"
-  //   },
-  //   {
-  //     icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
-  //     type: "More prizes",
-  //     content: "More prizes will be revealed later"
-  //   }
-  // ]
+  [
+    //Array 2
+    {
+      icon: <i class="first fas fa-4x fa-award"></i>,
+      type: "Polygon - Devfolio Hackathon Season Prize",
+      content:
+        "Polygon will be giving away a cash prize for the best hack built on top of Ethereum (Rs.10000) during the hackathon. For teams that integrate Polygon in their hacks as well the prize money will be higher (Rs.15000) along with eligibility for internship/full-time role interviews and a chance to land seed funding of upto 5000 USD "
+    },
+    {
+      icon: <i class="first fas fa-4x fa-award"></i>,
+      type: "Tezos - Devfolio Hackathon Season Prizer",
+      content: "20000 INR for best Dapp built on Tezos,Continuity grant opportunity up to 5,000 USD for an outstanding project and Every valid submission made in the Tezos track will be rewarded with exclusive Schwag Kits. "
+    },
+    {
+      icon: <i class=" first fa-4x fas fa-award"></i>,
+      type: "Celo - Devfolio Hackathon Season Prize",
+      content: "20000 INR for best Dapp built on Celo"
+    }
+  ], 
+  [
+    //Array 3
+    {
+      icon: <i class="first fa-4x fas fa-award"></i>,
+      type: "Filecoin - Devfolio Hackathon Season Prize",
+      content: "20000 INR for best use of IPFS and/or Filecoin"
+    },
+    {
+      icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
+      type: "More prizes",
+      content: "More prizes will be revealed later"
+    }
+  ]
 ];
 
 /** Instructions
@@ -172,28 +167,28 @@ const TeamInfo = [
   ],
   [
     //Array 2
-  //   {
-  //     Name: "Lyanola",
-  //     role: "Organizer",
-  //     github: "",
-  //     linkedin: "",
-  //     img: lyin
-  //   },
-  //   {
-  //     Name: "Zoheb",
-  //     role: "Organizer",
-  //     github: "",
-  //     linkedin: "",
-  //     img: zoha
-  //   },
-  //   {
-  //     Name: "Karishma",
-  //     role: "Organizer",
-  //     github: "",
-  //     linkedin: "",
-  //     img: kk
-  //   }
-  // ],
+    {
+      Name: "Praveen Kumar Purushothaman",
+      role: "Judge",
+      instagram: "",
+      linkedin: "https://www.linkedin.com/in/praveentech/",
+      img: praveen
+    },
+    {
+      Name: "Mukul Kumar",
+      role: "Judge",
+      instagram: "https://www.instagram.com/mukulcode/",
+      linkedin: "https://www.linkedin.com/in/mukulcode/",
+      img: mukul
+    },
+    {
+      Name: "Harsh Vardhan",
+      role: "Judge",
+      instagram: "",
+      linkedin: "https://www.linkedin.com/in/harsh-vardhan-654866123/",
+      img: harsh
+    }
+  ],
   // [
   //   //Array 3
   //   {
@@ -210,21 +205,9 @@ const TeamInfo = [
   //     linkedin: "",
   //     img: keshav
   //   }
-  ]
-];
+//   ]
+ ];
 
-/** Instructions
- * Only put 3 logos per array inside `sponsorLogos`, you can
- * create as many arrays you want all logos will be rendered
- * in a group of 3.
- */
-
-// const sponsorLogos = [
-//   [{src: Clerky},] ,//{src: sublime}, {src: echoAR}], //Array 1
-//    [{src: stream}, {src: cn}], //Array 2
-//   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-//   [{src: egg}, {src: taskade}], //{src: ACF}] //Array 4
-// ];
 
 const frequentlyAskedQuestions  = [
   [
