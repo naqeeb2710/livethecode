@@ -6,13 +6,18 @@ import Celo from "../../Module/Assets/sponsorsLogos/Celo.png";
 import Tezos from "../../Module/Assets/sponsorsLogos/Tezos.png";
 import Filecoin from "../../Module/Assets/sponsorsLogos/Filecoin.png";
 import Taskade from "../../Module/Assets/sponsorsLogos/taskade.png";
+import Axure from "../../Module/Assets/sponsorsLogos/axure.png";
 import Stream from "../../Module/Assets/sponsorsLogos/stream.png";
 import Devfolio from "../../Module/Assets/sponsorsLogos/Devfolio.png";
 import Egg from "../../Module/Assets/sponsorsLogos/egg.png";
 import Givemycertificate from "../../Module/Assets/sponsorsLogos/Givemycertificate.png";
 import Polygon from "../../Module/Assets/sponsorsLogos/Polygon.png";
 import {makeStyles} from "@material-ui/styles";
-import Axure from "../../Module/Assets/sponsorsLogos/axure.png";
+import Cscoder from "../../Module/Assets/sponsorsLogos/cscoderlogo.png";
+import Codermind from "../../Module/Assets/sponsorsLogos/codermind.png";
+import Codepartner from "../../Module/Assets/sponsorsLogos/codepartnerlogo.png";
+
+
 import "./sponsors.scss";
 
 const NewSponsors = () => {
@@ -87,6 +92,26 @@ const NewSponsors = () => {
           </div>
           <div className="Sponsor ">
             <img src={Axure} alt="" />
+          </div>
+        </Box>
+      </Grid>
+      <Grid item xs={12}>
+        <h1>Community Partner</h1>
+        <Box className="sponsors-logo">
+          <div className="Sponsor ">
+            <a href="https://celo.org/">
+              <img src={Codermind} alt="" />
+            </a>
+          </div>
+          <div className="Sponsor ">
+            <a href="https://filecoin.io/">
+              <img src={Codepartner} alt="" />
+            </a>
+          </div>
+          <div className="Sponsor ">
+            <a href="https://tezos.com/">
+              <img src={Cscoder} alt="" />
+            </a>
           </div>
         </Box>
       </Grid>
