@@ -25,6 +25,7 @@ import {
   panels
 } from "../../Module/General";
 import NewSponsors from "../Sponsors/NewSponsors.jsx";
+import {Timeline} from "../timeline/Timeline.jsx";
 
 // javascript Map for sponsors
 
@@ -123,6 +124,8 @@ export default function HomePage(props) {
             <Logo />
           </Col>
         </Row>
+        {/* Timeline section  */}
+        <Timeline />
 
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs">
