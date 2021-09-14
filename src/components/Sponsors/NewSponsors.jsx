@@ -16,6 +16,7 @@ import {makeStyles} from "@material-ui/styles";
 import Cscoder from "../../Module/Assets/sponsorsLogos/cscoderlogo.png";
 import Codermind from "../../Module/Assets/sponsorsLogos/codermind.png";
 import Codepartner from "../../Module/Assets/sponsorsLogos/codepartnerlogo.png";
+import Learner from "../../Module/Assets/sponsorsLogos/learner.png";
 
 
 import "./sponsors.scss";
@@ -92,6 +93,11 @@ const NewSponsors = () => {
           </div>
           <div className="Sponsor ">
             <img src={Axure} alt="" />
+          </div>
+          <div className="Sponsor ">
+            <a href="https://linktr.ee/leadinglearners">
+              <img src={Learner} alt="" />
+            </a>
           </div>
         </Box>
       </Grid>
