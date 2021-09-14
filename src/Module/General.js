@@ -6,6 +6,8 @@ import iist from "./Assets/teami/iist.png";
 import mukul from "./Assets/teami/mukul.png";
 import praveen from "./Assets/teami/praveen.jpg";
 import harsh from "./Assets/teami/harsh.jpg";
+import arsh from "./Assets/teami/arsh.jpeg";
+
 
 
 
@@ -189,15 +191,15 @@ const TeamInfo = [
       img: harsh
     }
   ],
-  // [
-  //   //Array 3
-  //   {
-  //     Name: "Pravallika",
-  //     role: "Organizer",
-  //     github: "",
-  //     linkedin: "",
-  //     img: Pravallika
-  //   },
+  [
+    //Array 3
+    {
+      Name: "Arsh Goyal",
+      role: "Judge",
+      instagram: "https://www.instagram.com/arshgoyalyt/",
+      linkedin: "https://www.linkedin.com/in/arshgoyal/",
+      img: arsh
+    },
   //   {
   //     Name: "Keshav",
   //     role: "Organizer",
@@ -205,7 +207,7 @@ const TeamInfo = [
   //     linkedin: "",
   //     img: keshav
   //   }
-//   ]
+  ]
  ];
 
 
