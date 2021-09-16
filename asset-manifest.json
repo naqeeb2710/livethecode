@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0bb74aa0.chunk.css",
-    "main.js": "/static/js/main.3180b4b4.chunk.js",
-    "main.js.map": "/static/js/main.3180b4b4.chunk.js.map",
+    "main.js": "/static/js/main.71ef5beb.chunk.js",
+    "main.js.map": "/static/js/main.71ef5beb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.96ccc461.js",
     "runtime-main.js.map": "/static/js/runtime-main.96ccc461.js.map",
     "static/css/2.2aa38b9c.chunk.css": "/static/css/2.2aa38b9c.chunk.css",
@@ -44,6 +44,7 @@
     "static/media/mukul.f002e502.png": "/static/media/mukul.f002e502.png",
     "static/media/pattern4.c3d51b06.png": "/static/media/pattern4.c3d51b06.png",
     "static/media/praveen.cb3dc106.jpg": "/static/media/praveen.cb3dc106.jpg",
+    "static/media/sanket.651aafcb.jpeg": "/static/media/sanket.651aafcb.jpeg",
     "static/media/stream.eeaed1ba.png": "/static/media/stream.eeaed1ba.png",
     "static/media/sym.6e590285.png": "/static/media/sym.6e590285.png",
     "static/media/taskade.ac444bbc.png": "/static/media/taskade.ac444bbc.png"
@@ -53,6 +54,6 @@
     "static/css/2.2aa38b9c.chunk.css",
     "static/js/2.98a66631.chunk.js",
     "static/css/main.0bb74aa0.chunk.css",
-    "static/js/main.3180b4b4.chunk.js"
+    "static/js/main.71ef5beb.chunk.js"
   ]
 }
