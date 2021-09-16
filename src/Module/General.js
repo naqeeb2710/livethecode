@@ -7,6 +7,8 @@ import mukul from "./Assets/teami/mukul.png";
 import praveen from "./Assets/teami/praveen.jpg";
 import harsh from "./Assets/teami/harsh.jpg";
 import arsh from "./Assets/teami/arsh.jpeg";
+import sanket from "./Assets/teami/sanket.jpeg";
+
 
 
 
@@ -200,13 +202,13 @@ const TeamInfo = [
       linkedin: "https://www.linkedin.com/in/arshgoyal/",
       img: arsh
     },
-  //   {
-  //     Name: "Keshav",
-  //     role: "Organizer",
-  //     github: "",
-  //     linkedin: "",
-  //     img: keshav
-  //   }
+    {
+      Name: "Sanket Singh",
+      role: "Judge",
+      instagram: "https://instagram.com/isanketsingh?utm_medium=copy_link",
+      linkedin: "https://www.linkedin.com/in/singhsanket143",
+      img: sanket
+    }
   ]
  ];
 
