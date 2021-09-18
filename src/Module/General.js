@@ -8,7 +8,7 @@ import praveen from "./Assets/teami/praveen.jpg";
 import harsh from "./Assets/teami/harsh.jpg";
 import arsh from "./Assets/teami/arsh.jpeg";
 import sanket from "./Assets/teami/sanket.jpeg";
-
+import mait from "./Assets/teami/mait.jpeg";
 
 
 
@@ -172,11 +172,11 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: "Praveen Kumar Purushothaman",
-      role: "Judge",
-      instagram: "",
-      linkedin: "https://www.linkedin.com/in/praveentech/",
-      img: praveen
+      Name: "CodeChef MAIT Chapter",
+      role: "Organizer",
+      instagram: "https://www.instagram.com/codechefchaptermait/",
+      linkedin: "https://www.linkedin.com/company/codechefmait/",
+      img: mait
     },
     {
       Name: "Mukul Kumar",
@@ -191,7 +191,8 @@ const TeamInfo = [
       instagram: "",
       linkedin: "https://www.linkedin.com/in/harsh-vardhan-654866123/",
       img: harsh
-    }
+    },
+    
   ],
   [
     //Array 3
@@ -208,7 +209,14 @@ const TeamInfo = [
       instagram: "https://instagram.com/isanketsingh?utm_medium=copy_link",
       linkedin: "https://www.linkedin.com/in/singhsanket143",
       img: sanket
-    }
+    },
+    {
+      Name: "Praveen Kumar Purushothaman",
+      role: "Judge",
+      instagram: "",
+      linkedin: "https://www.linkedin.com/in/praveentech/",
+      img: praveen
+    },
   ]
  ];
 
