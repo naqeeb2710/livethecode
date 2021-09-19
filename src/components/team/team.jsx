@@ -21,12 +21,12 @@ function Member(props) {
       <div className="members-link">
         <h3>{props.name}</h3>
         <p>{props.role}</p>
-        <a href={props.instagram}>
+        <a href={props.instagram} target="_blank">
           
           <i class="fab fa-2x fa-instagram"></i>
           
         </a>
-        <a href={props.linkedin}>
+        <a href={props.linkedin} target="_blank">
           
           <i class="fab fa-2x fa-linkedin"></i>
         </a>

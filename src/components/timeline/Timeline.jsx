@@ -39,10 +39,10 @@ export const Timeline = () => {
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Workshop 1</h3>
+        <h3 className="vertical-timeline-element-title">Workshop By Praveen Kumar </h3>
+        <h4 className="vertical-timeline-element-subtitle">Carrier Devlopment, Studying And Working in U.K</h4>
         <h4 className="vertical-timeline-element-subtitle">22 September 2021</h4>
-        <p> Carrier Devlopment, Studying And Working in U.K Deliverd by 
-Praveen Kumar</p>
+        <p> </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -50,9 +50,10 @@ Praveen Kumar</p>
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Workshop 2</h3>
+        <h3 className="vertical-timeline-element-title">Workshop By Coding Ninja</h3>
+        <h4 className="vertical-timeline-element-subtitle">Introduction To A.I And M.L</h4>
         <h4 className="vertical-timeline-element-subtitle">26 September 2021</h4>
-        <p>Introduction To A.I And M.L</p>
+        {/* <p>Introduction To A.I And M.L</p> */}
       </VerticalTimelineElement>
       
       
@@ -62,7 +63,7 @@ Praveen Kumar</p>
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Workshop 3 </h3>
+        <h3 className="vertical-timeline-element-title">Workshop By Devfolio </h3>
         <h4 className="vertical-timeline-element-subtitle">
          27/28 September 2021
         </h4>
@@ -74,9 +75,10 @@ Praveen Kumar</p>
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Workshop 4</h3>
+        <h3 className="vertical-timeline-element-title">Workshop By MyFirstXP</h3>
+        <h4 className="vertical-timeline-element-subtitle">How to get Internship</h4>
         <h4 className="vertical-timeline-element-subtitle">29 September 2021</h4>
-        <p>How to get Internship</p>
+        <p></p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -85,8 +87,9 @@ Praveen Kumar</p>
         // icon={<WorkIcon />}
       >
         <h3 className="vertical-timeline-element-title">Workshop 5</h3>
+        <h4 className="vertical-timeline-element-subtitle">Coil - Web Monetization API</h4>
         <h4 className="vertical-timeline-element-subtitle">30 September 2021</h4>
-        <p>Coil - Web Monetization API</p>
+        <p></p>
       </VerticalTimelineElement>
       
       <VerticalTimelineElement
@@ -131,7 +134,7 @@ Praveen Kumar</p>
         iconStyle={{background: "rgb(255, 0, 0)", color: "#fff"}}
         // icon={<StarIcon />}
       >
-        <h3 className="vertical-timeline-element-title">
+      <h3 className="vertical-timeline-element-title">
         Final Round
         </h3>
         <h4 className="vertical-timeline-element-subtitle">10 October 2021</h4>

@@ -27,7 +27,7 @@ const NewSponsors = () => {
       <Grid item xs={12}>
         <h1>Gold</h1>
         <div className="Sponsor " style={{marginTop: "8rem"}}>
-          <a href="https://devfolio.co/">
+          <a href="https://devfolio.co/" target="_blank">
             <img
               src={Devfolio}
               alt="" //height={100}
@@ -53,17 +53,17 @@ const NewSponsors = () => {
         <h1>Bronze</h1>
         <Box className="sponsors-logo">
           <div className="Sponsor ">
-            <a href="https://celo.org/">
+            <a href="https://celo.org/" target="_blank">
               <img src={Celo} alt="" />
             </a>
           </div>
           <div className="Sponsor ">
-            <a href="https://filecoin.io/">
+            <a href="https://filecoin.io/" target="_blank">
               <img src={Filecoin} alt="" />
             </a>
           </div>
           <div className="Sponsor ">
-            <a href="https://tezos.com/">
+            <a href="https://tezos.com/" target="_blank">
               <img src={Tezos} alt="" />
             </a>
           </div>
@@ -78,7 +78,7 @@ const NewSponsors = () => {
             <img src={Taskade} alt="" />
           </div>
           <div className="Sponsor ">
-            <a href="https://polygon.technology/">
+            <a href="https://polygon.technology/" target="_blank">
               <img src={Polygon} alt="" />
             </a>
           </div>
@@ -87,7 +87,7 @@ const NewSponsors = () => {
       <Grid item xs={12}>
         <Box className="sponsors-logo">
           <div className="Sponsor ">
-            <a href="https://givemycertificate.com/index.php">
+            <a href="https://givemycertificate.com/index.php" target="_blank">
               <img src={Givemycertificate} alt="" />
             </a>
           </div>
@@ -95,7 +95,7 @@ const NewSponsors = () => {
             <img src={Axure} alt="" />
           </div>
           <div className="Sponsor ">
-            <a href="https://linktr.ee/leadinglearners">
+            <a href="https://linktr.ee/leadinglearners" target="_blank">
               <img src={Learner} alt="" />
             </a>
           </div>
@@ -105,17 +105,17 @@ const NewSponsors = () => {
         <h1>Community Partner</h1>
         <Box className="sponsors-logo">
           <div className="Sponsor ">
-            <a href="https://www.instagram.com/codermind_/">
+            <a href="https://www.instagram.com/codermind_/" target="_blank">
               <img src={Codermind} alt="" />
             </a>
           </div>
           <div className="Sponsor ">
-            <a href="https://www.codepartner.me/">
+            <a href="https://www.codepartner.me/" target="_blank">
               <img src={Codepartner} alt="" />
             </a>
           </div>
           <div className="Sponsor ">
-            <a href="https://cscodershub.tech/">
+            <a href="https://cscodershub.tech/" target="_blank">
               <img src={Cscoder} alt="" />
             </a>
           </div>
