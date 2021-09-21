@@ -26,10 +26,12 @@ export const Timeline = () => {
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
         // icon={<WorkIcon />}
       >
+       <a href="https://youtu.be/72BzTGiGY8g" target="_blank">
         <h3 className="vertical-timeline-element-title">Orientation</h3>
         <h4 className="vertical-timeline-element-subtitle">
          20 September 2021
         </h4>
+        </a>
         <p>
         </p>
       </VerticalTimelineElement>
@@ -39,9 +41,11 @@ export const Timeline = () => {
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
         // icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Workshop By Praveen Kumar </h3>
+       <a href="https://youtu.be/EWLnGtcM_48" target="_blank"> 
+       <h3 className="vertical-timeline-element-title">Workshop By Praveen Kumar </h3>
         <h4 className="vertical-timeline-element-subtitle">Carrier Devlopment, Studying And Working in U.K</h4>
         <h4 className="vertical-timeline-element-subtitle">22 September 2021</h4>
+        </a>
         <p> </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -80,7 +84,7 @@ export const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">29 September 2021</h4>
         <p></p>
       </VerticalTimelineElement>
-      <VerticalTimelineElement
+      {/* <VerticalTimelineElement
         className="vertical-timeline-element--work"
         // date="2008 - 2010"
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
@@ -90,7 +94,7 @@ export const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">Coil - Web Monetization API</h4>
         <h4 className="vertical-timeline-element-subtitle">30 September 2021</h4>
         <p></p>
-      </VerticalTimelineElement>
+      </VerticalTimelineElement> */}
       
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
