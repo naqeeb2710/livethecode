@@ -52,15 +52,6 @@ function Myinfo() {
           />
         </a>
       </div>
-      {/* This is judges application button */}
-      {/* <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-        {" "}
-        <Btn
-          class="sponsor_btn"
-          type="Register "
-          overlay="Hackers registration"
-        />
-      </a> */}
       <div className="devfolio-btn">
         <div
           className="apply-button "
@@ -69,9 +60,9 @@ function Myinfo() {
            style={{height: "10rem", width: "22rem"}}
         ></div>
 
-        <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+        <a href={TOP_SECTION.JUDGES_FORM_LINK} target="_blank">
           {" "}
-          <Btn class="register" type="Mentor" overlay="Become The Mentor" />
+          <Btn class="register" type="Registration Guide" overlay="Watch Video" />
         </a>
       </div>
     </div>

@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import "./about.css";
 import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
+import {ThemeList, ThemeHeading} from "../Topic/Theme.jsx";
 import {Prizeinfo} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
@@ -22,6 +23,7 @@ import {
   sponsorLogos,
   frequentlyAskedQuestions,
   FOOTER,
+  Themeinfo,
   panels
 } from "../../Module/General";
 import NewSponsors from "../Sponsors/NewSponsors.jsx";
@@ -29,18 +31,6 @@ import {Timeline} from "../timeline/Timeline.jsx";
 
 // javascript Map for sponsors
 
-function SponsorGroup(props) {
-  return (
-    <Row>
-      {props.map((s, index) => (
-        <Col className="" sm={12} lg={4} md={6}>
-          {" "}
-          <Sponsor srcx={s.src} />{" "}
-        </Col>
-      ))}
-    </Row>
-  );
-}
 
 // javascript Map for sponsors end
 
@@ -52,6 +42,17 @@ function PrizeGroup(props) {
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+        </Col>
+      ))}
+    </Row>
+  );
+}
+function ThemeGroup(props) {
+  return (
+    <Row>
+      {props.map(s => (
+        <Col className="" sm={12} lg={4} md={6}>
+          <ThemeList icons={s.icons} types={s.types}  />
         </Col>
       ))}
     </Row>
@@ -127,23 +128,35 @@ export default function HomePage(props) {
         {/* Timeline section  */}
         <Timeline />
 
+        {/* theme section */}
+        <Row className="prizesection">
+          <ThemeHeading types="Hackathon Themes" />
+          {Themeinfo.map(ThemeGroup)}
+        </Row>
+
+        <Row className="prizesection non-coding">
+          <PrizeHeading type="Frequently Asked Questions" />
+          {/* <h2>coming soon</h2> */}
+        </Row>
+
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs">
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
 
+      
+       
+
         {/* ********Prizes here ***** */}
         <Row className="prizesection">
           <PrizeHeading type="Prize section" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
-        {/* ********Prizes ending here ***** */}
 
-        {/* <Row className="prizesection non-coding">
-          <PrizeHeading type="More Prizes" />
-          <h2>coming soon</h2>
-        </Row> */}
+                {/* ********Prizes ending here ***** */}
+
+        
 
         {/* ********Sponsors here ***** */}
 

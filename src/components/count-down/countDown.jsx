@@ -11,7 +11,7 @@ export default function CountDown() {
           target="_blank"
           href="https://discord.gg/8XJSzmtWPp"
         >
-          <i class="fab fa-3x fa-discord"></i>
+          <i class="fab fa-2x fa-discord"></i>
           <p>Join our discord</p>
         </a>
       </h1>

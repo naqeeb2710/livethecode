@@ -28,7 +28,7 @@ const TOP_SECTION = {
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
-    "https://docs.google.com/forms/d/e/1FAIpQLScYiyGKouI3cffX8sUcbJyFfy6_IS44yKoajJdsZTC9DuxkMg/viewform?usp=sf_link",
+    "https://youtu.be/ZZ7EuBgNqAk",
   HACKERS_REGISTRATION_FORM_LINK:
     "https://livethecode.devfolio.co/",
 };
@@ -54,7 +54,7 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: "https://docs.google.com/forms/d/e/1FAIpQLScYiyGKouI3cffX8sUcbJyFfy6_IS44yKoajJdsZTC9DuxkMg/viewform?usp=sf_link"
+    src: "https://youtu.be/ZZ7EuBgNqAk"
   },
   JOIN_TEAM: {
     required: false,
@@ -87,7 +87,7 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "Overall First",
+      type: "Overall irst",
       content:
         "First Overall prize will be given to a project that outstands all other submissions"
     },
@@ -136,6 +136,46 @@ const Prizeinfo = [
       content: "More prizes will be revealed later"
     }
   ]
+];
+const Themeinfo = [
+  [
+    //Array 1
+    {
+      icons: <i class=" second fa-4x fab fa-envira"></i>,
+      types: "Enviromental Issue",
+    },
+    {
+      icons: <i class=" First fas fa-4x fa-female"></i>,
+      types: "Women Safety",
+    },
+    {
+      icons: <i class=" third fas fa-4x fa-vr-cardboard"></i>,
+      types: "AR/VR ",
+    }
+  ],
+  [
+    //Array 1
+    {
+      icons: <i class=" second fa-4x fas fa-space-shuttle"></i>,
+      types: "Space Technology",
+    },
+    {
+      icons: <i class=" First fa-4x fas fa-robot"></i>,
+      types: "Artificial Intelligence",
+    },
+    {
+      icons: <i class=" First fa-4x fas fa-hand-holding-usd"></i>,
+      types: "FinTech ",
+    }
+  ],
+  [
+    //Array 1
+    {
+      icons: <i class=" second fa-4x far fa-lightbulb"></i>,
+      types: "Open Innvoation",
+    },
+  ],
+
 ];
 
 /** Instructions
@@ -285,5 +325,6 @@ export {
   Prizeinfo,
   // sponsorLogos,
   TeamInfo,
-  frequentlyAskedQuestions
+  frequentlyAskedQuestions,
+  Themeinfo
 };
