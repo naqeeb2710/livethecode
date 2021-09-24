@@ -14,6 +14,10 @@ function FirstPrize(props) {
     <div className="Prizes">
       {props.icon}
       <h2>{props.type}</h2>
+      <a href={props.learnmore} target="_blank">
+        <span>T&C</span>
+        <i class="fas fa-link"></i>
+      </a>
       <p>{props.content}</p>
     </div>
   );

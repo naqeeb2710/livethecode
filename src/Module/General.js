@@ -24,7 +24,7 @@ const TOP_SECTION = {
   TITLE: "Live The Code",
   Typed_effect: ["Weeks of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
-    "Join us on Last Week of September 2021 with over 100+ teams, 400+ students from across the nation for 48 hours of creation, innovation, & fun.",
+    "Join us on Last Week of September 2021 with over 100+ teams, 500+ students from across the nation for 48 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
@@ -46,7 +46,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Live The Code ?",
   LONG_DESCRIPTION:
-    "Live The Code is week long running hackathon that will be held on last week of september , We calls for hackers, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Live The Code will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "Live The Code is a week-long running hackathon that will be held on the last week of September, We call for hackers, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers. Throughout the weekend hackers at Live The Code will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: false,
   LOGO: "https://drive.google.com/file/d/1ljJxdnX9YBiWNI5hBGG18Iy2dbn2sOPa/view?usp=sharing"
 };
@@ -87,7 +87,7 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "Overall irst",
+      type: "Overall First",
       content:
         "First Overall prize will be given to a project that outstands all other submissions"
     },
@@ -110,17 +110,20 @@ const Prizeinfo = [
       icon: <i class="first fas fa-4x fa-award"></i>,
       type: "Polygon - Devfolio Hackathon Season Prize",
       content:
-        "Polygon will be giving away a cash prize for the best hack built on top of Ethereum (Rs.10000) during the hackathon. For teams that integrate Polygon in their hacks as well the prize money will be higher (Rs.15000) along with eligibility for internship/full-time role interviews and a chance to land seed funding of upto 5000 USD "
+        "Polygon will be giving away a cash prize for the best hack built on top of Ethereum (Rs.10000) during the hackathon. For teams that integrate Polygon in their hacks as well the prize money will be higher (Rs.15000) along with eligibility for internship/full-time role interviews and a chance to land seed funding of upto 5000 USD ",
+      learnmore:"https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"
     },
     {
       icon: <i class="first fas fa-4x fa-award"></i>,
       type: "Tezos - Devfolio Hackathon Season Prizer",
-      content: "20000 INR for best Dapp built on Tezos,Continuity grant opportunity up to 5,000 USD for an outstanding project and Every valid submission made in the Tezos track will be rewarded with exclusive Schwag Kits. "
+      content: "20000 INR for best Dapp built on Tezos,Continuity grant opportunity up to 5,000 USD for an outstanding project and Every valid submission made in the Tezos track will be rewarded with exclusive Schwag Kits. ",
+      learnmore:"https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff"
     },
     {
       icon: <i class=" first fa-4x fas fa-award"></i>,
       type: "Celo - Devfolio Hackathon Season Prize",
-      content: "20000 INR for best Dapp built on Celo"
+      content: "20000 INR for best Dapp built on Celo",
+      learnmore:"https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0"
     }
   ], 
   [
@@ -128,8 +131,22 @@ const Prizeinfo = [
     {
       icon: <i class="first fa-4x fas fa-award"></i>,
       type: "Filecoin - Devfolio Hackathon Season Prize",
-      content: "20000 INR for best use of IPFS and/or Filecoin"
+      content: "20000 INR for best use of IPFS and/or Filecoin",
+      learnmore:"https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203"
     },
+    {
+       icon: <i class="first fa-4x fas fa-award"></i>,
+      type: "Sawo Lab API Prize",
+      content: "100$ and Community Box to the winning team for using Sawo Labs API"
+    },
+    {
+      icon: <i class="first fa-4x fas fa-award"></i>,
+      type: "Coil API Prize",
+      content: "3 Coil Prizes for overall winners and Coil Prizes for all who integrate coil API "
+    }
+  ],
+  [
+    //Array 4
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
       type: "More prizes",

@@ -17,6 +17,8 @@ import Cscoder from "../../Module/Assets/sponsorsLogos/cscoderlogo.png";
 import Codermind from "../../Module/Assets/sponsorsLogos/codermind.png";
 import Codepartner from "../../Module/Assets/sponsorsLogos/codepartnerlogo.png";
 import Learner from "../../Module/Assets/sponsorsLogos/learner.png";
+import Sawo from "../../Module/Assets/sponsorsLogos/sawo.png";
+import Coil from "../../Module/Assets/sponsorsLogos/coil.png";
 
 
 import "./sponsors.scss";
@@ -24,6 +26,17 @@ import "./sponsors.scss";
 const NewSponsors = () => {
   return (
     <Grid container>
+      <Grid item xs={12}>
+        <h1>Platinum</h1>
+        <div className="Sponsor " style={{marginTop: "8rem"}}>
+          <a href="https://bit.ly/sawo-discord" target="_blank">
+            <img
+              src={Sawo}
+              alt="" //height={100}
+            />
+          </a>
+        </div>
+      </Grid>
       <Grid item xs={12}>
         <h1>Gold</h1>
         <div className="Sponsor " style={{marginTop: "8rem"}}>
@@ -40,6 +53,11 @@ const NewSponsors = () => {
         <Box className="sponsors-logo">
           <div className="Sponsor ">
             <img src={CN} alt="" />
+          </div>
+          <div className="Sponsor ">
+          <a href="https://coil.com/" target="_blank">
+            <img src={Coil} alt="" />
+            </a>
           </div>
           <div className="Sponsor ">
             <img src={Stream} alt="" />
@@ -88,15 +106,15 @@ const NewSponsors = () => {
         <Box className="sponsors-logo">
           <div className="Sponsor ">
             <a href="https://givemycertificate.com/index.php" target="_blank">
-              <img src={Givemycertificate} alt="" />
+              <img src={Givemycertificate} alt="" height={100} width={100}/>
             </a>
           </div>
           <div className="Sponsor ">
-            <img src={Axure} alt="" />
+            <img src={Axure} alt="" height={100} width={100} />
           </div>
           <div className="Sponsor ">
             <a href="https://linktr.ee/leadinglearners" target="_blank">
-              <img src={Learner} alt="" />
+              <img src={Learner} alt="" height={100} width={100} />
             </a>
           </div>
         </Box>
