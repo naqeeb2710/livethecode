@@ -47,7 +47,7 @@ export const Timeline = () => {
         <h3 className="vertical-timeline-element-title">Workshop By Coding Ninja</h3>
         <h4 className="vertical-timeline-element-subtitle">Introduction To A.I And M.L</h4>
         <h4 className="vertical-timeline-element-subtitle">6 PM IST 26 September 2021</h4>
-        <a href="#home">
+        <a href="https://www.youtube.com/watch?v=KU2v48n0e9w" target="_blank">
         <i class="fa-2x fas fa-play">Watch Here</i>
         </a>
       </VerticalTimelineElement>

@@ -28,6 +28,7 @@ const NewSponsors = () => {
     <Grid container>
       <Grid item xs={12}>
         <h1>Platinum</h1>
+
         <div className="Sponsor " style={{marginTop: "8rem"}}>
           <a href="https://bit.ly/sawo-discord" target="_blank">
             <img
@@ -35,6 +36,8 @@ const NewSponsors = () => {
               alt="" //height={100}
             />
           </a>
+          <center><h5>SAWO Labs is Our Authenication Partner </h5>
+          <h5> Use Their APIs And Won Awesome Prizes</h5> </center>
         </div>
       </Grid>
       <Grid item xs={12}>
@@ -50,16 +53,16 @@ const NewSponsors = () => {
       </Grid>
       <Grid item xs={12}>
         <h1>Silver</h1>
-        <Box className="sponsors-logo">
-          <div className="Sponsor ">
+        <Box className="sponsors-logo"  >
+          <div className="Sponsor " style={{marginTop: "8rem"}}>
             <img src={CN} alt="" />
           </div>
-          <div className="Sponsor ">
+          <div className="Sponsor " style={{marginTop: "8rem"}}>
           <a href="https://coil.com/" target="_blank">
             <img src={Coil} alt="" />
             </a>
           </div>
-          <div className="Sponsor ">
+          <div className="Sponsor " style={{marginTop: "8rem"}}>
             <img src={Stream} alt="" />
           </div>
           <div className="Sponsor " style={{marginTop: "8rem"}}>
@@ -70,17 +73,17 @@ const NewSponsors = () => {
       <Grid item xs={12}>
         <h1>Bronze</h1>
         <Box className="sponsors-logo">
-          <div className="Sponsor ">
+          <div className="Sponsor " style={{marginTop: "8rem"}}>
             <a href="https://celo.org/" target="_blank">
               <img src={Celo} alt="" />
             </a>
           </div>
-          <div className="Sponsor ">
+          <div className="Sponsor " style={{marginTop: "8rem"}}>
             <a href="https://filecoin.io/" target="_blank">
               <img src={Filecoin} alt="" />
             </a>
           </div>
-          <div className="Sponsor ">
+          <div className="Sponsor " style={{marginTop: "8rem"}}>
             <a href="https://tezos.com/" target="_blank">
               <img src={Tezos} alt="" />
             </a>
@@ -92,7 +95,7 @@ const NewSponsors = () => {
           <div className="Sponsor ">
             <img src={Egg} alt="" />
           </div>
-          <div className="Sponsor ">
+          <div className="Sponsor " >
             <img src={Taskade} alt="" />
           </div>
           <div className="Sponsor ">
