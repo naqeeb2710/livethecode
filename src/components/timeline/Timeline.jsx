@@ -53,7 +53,7 @@ export const Timeline = () => {
       </VerticalTimelineElement>
       
       
-      <VerticalTimelineElement
+      {/* <VerticalTimelineElement
         className="vertical-timeline-element--work"
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
       >
@@ -64,8 +64,8 @@ export const Timeline = () => {
         <a href="#home">
         <i class="fa-2x fas fa-play">Watch Here</i>
         </a>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
+      </VerticalTimelineElement> */}
+      {/* <VerticalTimelineElement
         className="vertical-timeline-element--work"
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
       >
@@ -76,14 +76,14 @@ export const Timeline = () => {
         <i class="fa-2x fas fa-play">Watch Here</i>
         </a>
 
-      </VerticalTimelineElement>
+      </VerticalTimelineElement> */}
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         iconStyle={{background: "rgb(33, 150, 243)", color: "#fff"}}
       >
         <h3 className="vertical-timeline-element-title">Workshop By SAWO</h3>
         <h4 className="vertical-timeline-element-subtitle">SAWO-API Integration-Win SAWO Prizes In Hackathon</h4>
-        <h4 className="vertical-timeline-element-subtitle">6:00 PM IST 30 September 2021 </h4>
+        <h4 className="vertical-timeline-element-subtitle">5 PM IST 1 October 2021 </h4>
         <a href="https://www.youtube.com/watch?v=Wd--sIKYkPk" target="_blank">
         <i class="fa-2x fas fa-play">Watch Here</i>
          </a>
