@@ -33,7 +33,7 @@ export const Timeline = () => {
         >
        
        <h3 className="vertical-timeline-element-title">Workshop By Praveen Kumar </h3>
-        <h4 className="vertical-timeline-element-subtitle">Carrier Devlopment, Studying And Working in U.K</h4>
+        <h4 className="vertical-timeline-element-subtitle">Career Devlopment, Studying And Working in U.K</h4>
         <h4 className="vertical-timeline-element-subtitle">5:00 PM IST 22 September 2021</h4>
         <a href="https://youtu.be/EWLnGtcM_48" target="_blank">
         <i class="fa-2x fas fa-play">Watch Here</i>

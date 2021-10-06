@@ -1,16 +1,12 @@
 # Hackathon website Folio template ⚡️ 
 
-![](https://img.shields.io/github/repo-size/Limbo-Hacks/Hackathon-website-template)
-![](https://img.shields.io/github/commit-activity/m/Limbo-Hacks/Hackathon-website-template)
+![](https://img.shields.io/github/repo-size/naqeeb2710/livethecode)
+![](https://img.shields.io/github/commit-activity/m/naqeeb2710/livethecode)
 
 
 
 ## A clean, beautiful and mobile responsive portfolio template for your upcoming hackathon!
 
-#### Demo view
-
-
-![gifs](https://github.com/Limbo-Hacks/Hackathon-website-template/blob/main/Resources/Screen%20Recording%202021-08-14%20at%2010.42.16%20PM.gif)
 
 
 Just change `src/Module/general.js` to get your hackathon portfolio. Customize and your sponsors, team-member and judges by adding images in `src/Module/Assets` . Feel free to use it as-is or personalize it as much as you want.
@@ -70,7 +66,7 @@ git@2.17.1 or higher
 Starting the Client application.
 
 ```bash
-cd hackathon-templete 
+cd livethecode
 
 # install all packages
 
@@ -231,7 +227,7 @@ Move to package.json
 ```javascript
 // package.json
 {
-  "homepage": "https://limbo-hacks.github.io/Hackathon-website-template/",
+  "homepage": "https://livethecode.tech",
   "name": "hackathon-website-template",
   "version": "0.1.0",
   "private": true,
@@ -275,13 +271,3 @@ npm run deploy
 - [React Routers]()
 - [Material UI]()
 
-## Project Maintainers
-
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Abusayid693"><img src="https://github.com/Abusayid693.png?size=460" width="100px;" alt=""/><br /><sub><b>Rehan </b></sub></a></td>
-    <td align="center"><a href="https://github.com/ZohebMOPO"><img src="https://github.com/ZohebMOPO.png?size=460" width="100px;" alt=""/><br /><sub><b>Zoheb</b></sub></a></td>
-    <td align="center"><a href="https://github.com/adityamangal1"><img src="https://github.com/adityamangal1.png?size=460" width="100px;" alt=""/><br /><sub><b>Zoheb</b></sub></a></td>
-
-  </tr>
-</table>

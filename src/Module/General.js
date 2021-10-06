@@ -89,23 +89,29 @@ const Prizeinfo = [
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: "Overall First",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions"
+        "Coil Prize, SAWO community box, Devfolio Swag kit, Taskade LifeTime Access, Streamyard Essential Plan, Egghead 1 year plan (all the courses), GFG 1200 coupon - applicable on all courses, Clerky LifeTime Package worth $800, $35"
     },
     {
       icon: <i class=" second fas fa-4x fa-medal"></i>,
       type: "Overall Second",
       content:
-        "Second Overall prize will be given to the second best project of the hackathon"
+        "Coil Prize, SAWO community box, Devfolio Swag kit, Taskade LifeTime Access, Streamyard Essential Plan, Egghead 1 year plan (all the courses), GFG 800 coupon - applicable on all courses, $20"
     },
     {
       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "Overall Third ",
       content:
-        "Best third overall project of the hackathon will win some awesome prizes"
+        "Coil Prize, SAWO community box,  Devfolio Swag kit, Taskade LifeTime Access, Streamyard Essential Plan, Egghead 1 year plan (all the courses), GFG 500 coupon - applicable on all courses, $15"
     }
   ],
   [
     //Array 2
+    {
+      icon: <i class="first fas fa-4x fa-award"></i>,
+      type: "Overall Fourth And Fifth",
+      content:
+        "Devfolio swag kit, egg head coupon, taskade 2 year, Gfg 300 coupon, Coding ninjas 25%off coupon ",
+    },
     {
       icon: <i class="first fas fa-4x fa-award"></i>,
       type: "Polygon - Devfolio Hackathon Season Prize",
@@ -118,12 +124,6 @@ const Prizeinfo = [
       type: "Tezos - Devfolio Hackathon Season Prizer",
       content: "20000 INR for best Dapp built on Tezos,Continuity grant opportunity up to 5,000 USD for an outstanding project and Every valid submission made in the Tezos track will be rewarded with exclusive Schwag Kits. ",
       learnmore:"https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff"
-    },
-    {
-      icon: <i class=" first fa-4x fas fa-award"></i>,
-      type: "Celo - Devfolio Hackathon Season Prize",
-      content: "20000 INR for best Dapp built on Celo",
-      learnmore:"https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0"
     }
   ], 
   [
@@ -133,26 +133,34 @@ const Prizeinfo = [
       type: "Filecoin - Devfolio Hackathon Season Prize",
       content: "20000 INR for best use of IPFS and/or Filecoin",
       learnmore:"https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203"
-    },
-    {
-       icon: <i class="first fa-4x fas fa-award"></i>,
-      type: "Sawo Lab API Prize",
-      content: "100$ and Community Box to the winning team for using Sawo Labs API"
+      
     },
     {
       icon: <i class="first fa-4x fas fa-award"></i>,
-      type: "Coil API Prize",
-      content: "3 Coil Prizes for overall winners and Coil Prizes for all who integrate coil API "
+      type: "Sawo Lab API Prize",
+      content: "100$ and Community Box to the winning team for using Sawo Labs API" ,  
+      learnmore:"https://sawolabs.com/hackathon/redeemnow/?hackathon_name=LivetheCode"
+    },
+    {
+      icon: <i class=" first fa-4x fas fa-award"></i>,
+      type: "Celo - Devfolio Hackathon Season Prize",
+      content: "20000 INR for best Dapp built on Celo",
+      learnmore:"https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0"
     }
-  ],
+  ], 
   [
     //Array 4
+    {
+      icon: <i class="first fa-4x fas fa-award"></i>,
+      type: "Coil API Prize",
+      content: "3 Coil Prizes for overall winners and Coil Prizes for all who integrate coil API " 
+    },
     {
       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
       type: "More prizes",
       content: "More prizes will be revealed later"
-    }
-  ]
+    },
+  ],
 ];
 const Themeinfo = [
   [
