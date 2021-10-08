@@ -119,7 +119,7 @@ export const Timeline = () => {
         <h3 className="vertical-timeline-element-title">
           Idea Implementation Phase
         </h3>
-        <h4 className="vertical-timeline-element-subtitle">5-9 October 2021</h4>
+        <h4 className="vertical-timeline-element-subtitle">5-7 October 2021</h4>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
@@ -128,7 +128,7 @@ export const Timeline = () => {
         <h3 className="vertical-timeline-element-title">
          Project Submission
         </h3>
-        <h4 className="vertical-timeline-element-subtitle">7-9 October 2021</h4>
+        <h4 className="vertical-timeline-element-subtitle">8 October 2021</h4>
         <p></p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
